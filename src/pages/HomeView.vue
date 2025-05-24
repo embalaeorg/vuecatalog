@@ -1,9 +1,15 @@
 <script setup>
-import TheWelcome from '../components/TheWelcome.vue'
+
+import DocumentationIcon from '../components/icons/IconDocumentation.vue'
+
 </script>
 
 <template>
   <main>
-    <TheWelcome />
+
+    <DocumentationIcon />
+   <a href="/catalogo/listar" target="_blank" rel="noopener">Catálogo de Produtos</a>
+
+
   </main>
 </template>
